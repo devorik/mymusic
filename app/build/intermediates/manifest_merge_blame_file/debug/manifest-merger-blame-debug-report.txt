@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kz.iitu.mymusic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:7:5-31:19
+14        android:allowBackup="true"
+14-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme.NoActionBar" >
+22-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:13:9-52
+23        <activity
+23-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:14:9-15:68
+24            android:name="kz.iitu.mymusic.MusicVideo"
+24-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:14:19-45
+25            android:theme="@style/CustomActionBarTheme" />
+25-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:15:13-56
+26        <activity android:name="kz.iitu.mymusic.StartingPageActivity" >
+26-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:17:19-55
+27            <intent-filter>
+27-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="kz.iitu.mymusic.TopTenActivity" />
+33-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:24:9-52
+33-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:24:19-49
+34        <activity
+34-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:25:9-27:59
+35            android:name="kz.iitu.mymusic.AlbumDetailsActivity"
+35-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:26:13-49
+36            android:theme="@style/CustomActionBarTheme" />
+36-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:27:13-56
+37        <activity android:name="kz.iitu.mymusic.HomePage" />
+37-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:29:9-46
+37-->C:\Users\or200\OneDrive\Desktop\android projects\MyMusic\app\src\main\AndroidManifest.xml:29:19-43
+38
+39        <provider
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\ac8afa38dcf0b002c5f817cc8907a3e3\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+40            android:name="com.squareup.picasso.PicassoProvider"
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\ac8afa38dcf0b002c5f817cc8907a3e3\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+41            android:authorities="kz.iitu.mymusic.com.squareup.picasso"
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\ac8afa38dcf0b002c5f817cc8907a3e3\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+42            android:exported="false" />
+42-->[com.squareup.picasso:picasso:2.71828] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\ac8afa38dcf0b002c5f817cc8907a3e3\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+43
+44        <service
+44-->[androidx.room:room-runtime:2.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\017068b4fe71cb1ff83dbac031d86bcc\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+45            android:name="androidx.room.MultiInstanceInvalidationService"
+45-->[androidx.room:room-runtime:2.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\017068b4fe71cb1ff83dbac031d86bcc\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+46            android:exported="false" />
+46-->[androidx.room:room-runtime:2.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\017068b4fe71cb1ff83dbac031d86bcc\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+47    </application>
+48
+49</manifest>
